@@ -1,0 +1,19 @@
+body {
+    background-color:  #ddf5fd ;
+}
+h1 {
+    color: #000965;
+}
+h2 {
+    color: #000965;
+}
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+hr {
+    border-style: dotted none none;
+    border-color: grey;
+    border-width: 10px;
+    width: 5%;
+  }
