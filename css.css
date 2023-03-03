@@ -1,19 +1,64 @@
 body {
     background-color:  #ddf5fd ;
+    font-family: Trebuchet MS;
 }
+
 h1 {
     color: #000965;
 }
+
 h2 {
     color: #000965;
 }
+
 p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
 }
+
 hr {
     border-style: dotted none none;
     border-color: grey;
     border-width: 10px;
     width: 5%;
-  }
+}
+
+
+/*Header stuff*/
+
+ul { /*whole top bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a { /*link styling*/
+    display: inline;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active { /*current tab (class="active")*/
+    color: Black;
+    background-color: rgb(114, 214, 32);
+}
+
+li a:hover { /*when hovering*/
+    color: black;
+    text-decoration: none;
+
+}
+
+li a:active { /*when holding click down*/
+    background-color: rgb(64, 143, 0);
+    color: white;
+    text-decoration: none;
+}
+
+/*end of header stuff*/
