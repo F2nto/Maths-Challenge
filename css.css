@@ -5,10 +5,16 @@ body {
 
 h1 {
     color: #000965;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
     color: #000965;
+}
+
+h6 {
+    color:hsla(0, 0%, 41%, 0.651);
+    text-align: center;
 }
 
 p {
@@ -23,6 +29,10 @@ hr {
     width: 5%;
 }
 
+footer a {
+    color:hsla(0, 0%, 21%, 0.651);
+}
+
 
 /*Header stuff*/
 
@@ -31,7 +41,7 @@ ul { /*whole top bar*/
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #107397;
 }
 
 li a { /*link styling*/
@@ -46,7 +56,7 @@ li a { /*link styling*/
 
 .active { /*current tab (class="active")*/
     color: Black;
-    background-color: rgb(114, 214, 32);
+    background-color: #afe31c;
 }
 
 li a:hover { /*when hovering*/
@@ -56,7 +66,7 @@ li a:hover { /*when hovering*/
 }
 
 li a:active { /*when holding click down*/
-    background-color: rgb(64, 143, 0);
+    background-color: #8bb616;
     color: white;
     text-decoration: none;
 }
